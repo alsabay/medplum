@@ -23,7 +23,8 @@
     "strictPropertyInitialization": true,
     "allowJs": true,
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["jest", "vite/client", "node"]
   },
   "exclude": ["node_modules"]
 }
